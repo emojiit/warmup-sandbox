@@ -24,7 +24,7 @@ Slow down, bucko. We don't even have a proper code design to shave...
 | name | role | tz |
 |-|-|-|
 | cielo | full stack | pst |
-| check | frontend | the moon |
+| check | frontend | est |
 | minty | backend and mobile | est |
 | pumkin | mobile | the moon |
 | naquino | backand and mobile | est |
