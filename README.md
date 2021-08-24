@@ -1,6 +1,6 @@
 # ![Logo](emojiit.png)
 
-This repository serves to be the brick wall to throw s#&t onto as a playground for preperation of the actual project. Any resemblance to other particular closed source web application projects are purely coinidental.
+This repository serves to be the brick wall to throw s#&t onto as a playground for preperation of the actual project. Any resemblance to other particular closed source web application projects are purely coincidental.
 
 ## FAQ
 
