@@ -36,4 +36,4 @@ Read GitHub projects.
 
 ### Installation
 
-Install postgresql 13.4+, go 1.17, redis server, and docker (windows is questionable; will elaborate).
+Install postgresql 13.4+, go 1.17, redis server, and docker (windows is questionable; will elaborate)
