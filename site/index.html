@@ -1,26 +1,22 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {background-color: cornsilk;}
-title {color: blue;}
-.title{font-family: "Ludica Console", "Courier New", monospace;}
-</style>
-    <title>Hello World</title>
-    <script src="https://unpkg.com/vue"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <script src ="https://unpkg.com/vue@3.0.2"></script>
 </head>
 <body>
-    <title id="app">
-        {{ message }}
-    </title>
+    <h1>Hello World!</h1>
 
-    <script>
-        const app = new Vue({
-            el: '#app',
-            data: {
-                message: 'Hello World!'
-            }
-        });
-    </script>
+    <div id="app">
+        <p>Hey! Look! A variable! {{number}}</p>
+        
+        <button v-on:click="number++">Increase Number!</button>
+        <button v-on:click="number--">Decrease Number!</button>
+        <div @click="number = 100">Click me!</div>
+    </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
